@@ -161,11 +161,11 @@ export default function Footer() {
 
                     {/* Language Select */}
 
-                    <div className="flex items-center gap-2 bg-[#26241e] border border-[#1f1f1f] rounded-full px-3 py-[3px]">
+                    <div className="flex items-center gap-2 bg-[#26241e]  rounded-full px-3 py-[3px]">
 
                         🌐
 
-                        <select className="bg-transparent outline-none text-sm cursor-pointer">
+                            <select className="bg-[#26241e] border-none text-sm cursor-pointer">
 
                             <option>English</option>
                             <option>简体中文</option>
