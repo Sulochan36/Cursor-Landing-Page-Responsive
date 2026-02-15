@@ -7,7 +7,7 @@ import FeaturesGrid from '../sections/FeaturesGrid'
 import Highlights from '../sections/Highlights'
 import About from '../sections/About'
 import ChangeLog from '../sections/ChangeLog'
-import Cta from '../sections/Cta'
+import FinalCTA from '../sections/FinalCTA'
 
 const Home = () => {
     return (
@@ -17,10 +17,10 @@ const Home = () => {
             <Features/>
             <Testimonials/>
             <FeaturesGrid/>
-            <Highlights/>
-            <About/>
             <ChangeLog/>
-            <Cta/>
+            <About/>
+            <Highlights/>
+            <FinalCTA/>
         </div>
     )
 }

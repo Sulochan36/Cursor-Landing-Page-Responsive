@@ -1,1 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
 @import "tailwindcss";
+
+/* Geist font */
+
+
+:root {
+    --bg: #14120b;
+    --card: #1b1913;
+    --muted: #edecec99;
+    --accent: #f54e00;
+}
+
+body {
+    background: var(--bg);
+    color: white;
+    font-family: "Geist", sans-serif;
+}
